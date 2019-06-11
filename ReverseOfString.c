@@ -3,7 +3,6 @@
 int main()
 {
   int a,i;
-  return 0;
   char str[100000];
   scanf("%s",&str);
   a=strlen(str);
