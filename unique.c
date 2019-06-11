@@ -1,3 +1,4 @@
+
 #include<stdio.h>
 int main()
 {
@@ -7,18 +8,22 @@ int main()
   long int i;
   for(i=0;i<n;i++)
   {
-    scanf("%ld",arr[i]);
+    scanf("%ld",&arr[i]);
   }
   int flag=0;
   long int j;
   for(i=0;i<n;i++)
   {
+    flag=0;
     for(j=0;j<n;j++)
     {
       if(i==j)
         continue;
       if(arr[i]==arr[j])
+      {
+        flag=1;
         break;
+      }
     }
     if(flag==0)
     {
