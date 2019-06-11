@@ -27,5 +27,5 @@ int main()
     }
   }
   if(c==0)
-    prinf("YES");
+    printf("YES");
 }
