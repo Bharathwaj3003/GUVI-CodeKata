@@ -18,5 +18,7 @@ int main()
   }
   for(j=0;j<i;j++)
     printf("%ld ",arr[j]);
+  if(i==0)
+    printf("-1");
   return 0;
 }
